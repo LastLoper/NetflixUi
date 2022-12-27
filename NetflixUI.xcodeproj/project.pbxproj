@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51E8D9EF295AF62E003D1CDC /* ContentCollectionRankCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E8D9EE295AF62E003D1CDC /* ContentCollectionRankCell.swift */; };
+		51E8D9F1295AF9CF003D1CDC /* ContentCollectionMainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E8D9F0295AF9CF003D1CDC /* ContentCollectionMainCell.swift */; };
+		51E8D9F3295AFE32003D1CDC /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E8D9F2295AFE31003D1CDC /* UIButton.swift */; };
 		93DB4AAE29053D0600FEF1E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DB4AAD29053D0600FEF1E5 /* AppDelegate.swift */; };
 		93DB4AB029053D0600FEF1E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DB4AAF29053D0600FEF1E5 /* SceneDelegate.swift */; };
 		93DB4AB229053D0600FEF1E5 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DB4AB129053D0600FEF1E5 /* MainVC.swift */; };
@@ -20,6 +23,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		51E8D9EE295AF62E003D1CDC /* ContentCollectionRankCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCollectionRankCell.swift; sourceTree = "<group>"; };
+		51E8D9F0295AF9CF003D1CDC /* ContentCollectionMainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCollectionMainCell.swift; sourceTree = "<group>"; };
+		51E8D9F2295AFE31003D1CDC /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
 		93DB4AAA29053D0600FEF1E5 /* NetflixUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetflixUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93DB4AAD29053D0600FEF1E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93DB4AAF29053D0600FEF1E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,7 +77,6 @@
 				93DB4AAF29053D0600FEF1E5 /* SceneDelegate.swift */,
 				93DB4AB629053D0700FEF1E5 /* Assets.xcassets */,
 				93DB4AB829053D0700FEF1E5 /* LaunchScreen.storyboard */,
-				93DB4AC42905473800FEF1E5 /* Content.plist */,
 				93DB4ABB29053D0700FEF1E5 /* Info.plist */,
 			);
 			path = NetflixUI;
@@ -90,6 +95,9 @@
 			children = (
 				93DB4ACD290556C000FEF1E5 /* ContentCollecionCell.swift */,
 				93DB4ACF29057EE700FEF1E5 /* ContentCollectionHeader.swift */,
+				51E8D9EE295AF62E003D1CDC /* ContentCollectionRankCell.swift */,
+				51E8D9F0295AF9CF003D1CDC /* ContentCollectionMainCell.swift */,
+				51E8D9F2295AFE31003D1CDC /* UIButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -98,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				93DB4AC8290547A200FEF1E5 /* Content.swift */,
+				93DB4AC42905473800FEF1E5 /* Content.plist */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -182,9 +191,12 @@
 				93DB4ACE290556C000FEF1E5 /* ContentCollecionCell.swift in Sources */,
 				93DB4AB229053D0600FEF1E5 /* MainVC.swift in Sources */,
 				93DB4AAE29053D0600FEF1E5 /* AppDelegate.swift in Sources */,
+				51E8D9EF295AF62E003D1CDC /* ContentCollectionRankCell.swift in Sources */,
 				93DB4AB029053D0600FEF1E5 /* SceneDelegate.swift in Sources */,
 				93DB4AD029057EE700FEF1E5 /* ContentCollectionHeader.swift in Sources */,
+				51E8D9F1295AF9CF003D1CDC /* ContentCollectionMainCell.swift in Sources */,
 				93DB4AC9290547A200FEF1E5 /* Content.swift in Sources */,
+				51E8D9F3295AFE32003D1CDC /* UIButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,8 +9,8 @@ import UIKit
 
 struct Content: Decodable {
     let sectionType: SectionType
-    let contentName: String
-    let contentItems: [Item]
+    let sectionName: String
+    let contentItem: [Item]
     
     enum SectionType: String, Decodable {
         case main
